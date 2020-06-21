@@ -32,7 +32,7 @@ time.sleep(3)
 searchArea = browser.find_element_by_xpath("/html/body/div/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/div[2]/input")
 searchButton = browser.find_element_by_xpath("/html/body/div/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/div[1]/svg")
 
-searchArea.send_keys("#yazilimayolver")
+searchArea.send_keys("#NeverGiveUp")
 searchArea.send_keys(Keys.ENTER)
 searchArea.send_keys(Keys.RETURN)
 
